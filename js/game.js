@@ -67,7 +67,7 @@ const createCard = (character) => {
   const card = createElement("div", "card");
   const front = createElement("div", "face front");
   const back = createElement("div", "face back");
-  front.style.backgroundImage = `url('images/cards/${character}.jpeg')`;
+  front.style.backgroundImage = `url('./images/cards/${character}.jpeg')`;
   card.appendChild(front);
   card.appendChild(back);
   card.addEventListener("click", revealCard);
