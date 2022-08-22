@@ -1,0 +1,48 @@
+.grid{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+.card{
+    aspect-ratio: 3/4;
+    width: 100%;
+    
+    border-radius: 5px;
+    position: relative;
+    transition: all 1.5s ease;
+    transform-style:preserve-3d ;
+}
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     background-size: cover;
+    background-position:center;
+    border: 2px double rgb(224, 248, 6);
+    border-radius: 5px;
+    transition: all 3s ease;
+}
+.front{
+    
+    transform: rotateY(180deg);
+}
+.back{
+    filter: saturate(0.3);
+    background-image:linear-gradient(to right, rgba(112, 34, 0, 0.411), rgba(161, 60, 5, 0.26)
+), url(../images/branca\ de\ neve.jpeg);
+   
+    backface-visibility: hidden;
+    background-position:top;
+}
+.reveal-card{
+    transform: rotateY(180deg);
+}
+
+.disabled-card{
+    filter: saturate(0);
+    opacity: 0.8;
+}
+
