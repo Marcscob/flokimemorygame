@@ -6,7 +6,7 @@ const characters = [
   "group hug",
   "Happy Fathers Day",
   "I love Daddy",
-  "inside the tunel",
+  "Insidethetunel",
   "Laura and Lia",
   "Little baby",
   "Lovely Pita",
