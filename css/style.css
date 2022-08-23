@@ -1,4 +1,11 @@
+
+.superwrapper{
+  max-width: 2300px;
+  margin: 0 auto;
+}
 .header{
+margin: 0 auto;
+
 height: 1445px;
 width: 2300px;
 background-image: /*linear-gradient(to right, rgba(15, 0, 54, 0.637), rgba(2, 4, 39, 0.692)
@@ -6,12 +13,13 @@ background-image: /*linear-gradient(to right, rgba(15, 0, 54, 0.637), rgba(2, 4,
 background-repeat: no-repeat;
 background-position:center ;
 background-size: cover;
+
 }
 h1{
   font-family: 'Butterfly Kids', cursive;
   text-align: center;
   color: rgb(255, 208, 255);
-  font-size: 60px;
+  font-size: 90px;
   margin-bottom: 0;
   font-weight: lighter;
   font-size: 130px;
@@ -19,32 +27,40 @@ h1{
 }
 
 #grid-text{
-  color: rgb(0, 0, 0);
-  font-size: 40px;
+  color: rgb(133, 32, 133);
+  font-size: 80px;
   font-weight: bolder;
 }
 .wrapper{
+  margin: 0 auto;
+  max-width: 2300px;
   background-image: url(../images/WallpaperDog-5509276.jpg);
-  height:1200px ;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1200px;
+
 }
+
+.album{
+  margin: 0 auto;
+  max-width: 2300px;
+   background-image: url(../images/soap\ baloons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2600px;
+}
+
 
 .bi-stars{
 color: rgb(243, 247, 7);
 }
 .hr{
+  
   background-color: rgb(242, 151, 250);
-  height: 5px;
+  height: 15px;
   
 }
-.bi-balloon-heart-fill{
-  opacity: 0.7;
-  font-size: 35px;
-}
 
-body{
-  background-color: rgb(250, 220, 225);
 
-}
+
 
