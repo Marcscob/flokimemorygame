@@ -44,7 +44,7 @@ checkEndGame();
     secondCard.classList.remove("reveal-card");
     firstCard = '';
     secondCard = "";
-}, 2000);
+}, 1300);
     
 }
 }
