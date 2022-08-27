@@ -11,6 +11,7 @@ const characters = [
   "Little baby",
   "Lovely Pita",
   "magic_carpet",
+  
 ];
 
 const createElement = (tag, className) => {
