@@ -1,8 +1,8 @@
 const grid = document.querySelector(".grid");
 
 const characters = [
-  "canoeing",
-  "cinema",
+  "MommyandFlokin17",
+  "MommyandFlokin18",
   "group hug",
   "Happy Fathers Day",
   "I love Daddy",
