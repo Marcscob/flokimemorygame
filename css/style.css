@@ -1,20 +1,9 @@
-
-.superwrapper{
+.superwrapper {
   max-width: 2300px;
   margin: 0 auto;
 }
-/*.header{
-margin: 0 auto;
-height: 1445px;
-max-width: 2300px;
-background-image: linear-gradient(to right, rgba(15, 0, 54, 0.637), rgba(2, 4, 39, 0.692)
-), url(../images/backgroundmulticircle.jpg);
-background-repeat: no-repeat;
-background-position:center ;
-background-size: cover;
-}*/
 
-h1{
+h1 {
   font-family: 'Butterfly Kids', cursive;
   text-align: center;
   color: rgb(255, 208, 255);
@@ -22,44 +11,24 @@ h1{
   margin-bottom: 0;
   font-weight: lighter;
   font-size: 130px;
- 
+
 }
 
-#grid-text{
+#grid-text {
   color: rgb(133, 32, 133);
   font-size: 80px;
   font-weight: bolder;
 }
-.wrapper{
+
+.wrapper {
   margin: 0 auto;
   height: 1200px;
   max-width: 2300px;
   background-image: url(../images/WallpaperDog-5509276.jpg);
   background-repeat: no-repeat;
-background-position:center ;
-background-size: cover;
-  
+  background-position: center;
+  background-size: cover;
+
 
 }
-
-/*.album{
-  margin: 0 auto;
-  max-width: 2300px;
-  height: 2600px; 
-  background-image: url(../images/soap\ baloons.jpg);
- background-repeat: no-repeat;
-background-position:center ;
-background-size: cover;
-  
-}
-
-.hr{
-  
-  background-color: rgb(242, 151, 250);
-  height: 15px;
-  
-}*/
-
-
-
 
