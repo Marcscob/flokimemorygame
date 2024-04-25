@@ -14,7 +14,12 @@ const characters = [
   
 ];
 
-
+// Add the missing createElement function
+const createElement = (tag, className) => {
+  const element = document.createElement(tag);
+  element.className = className;
+  return element;
+};
 
 let firstCard = "";
 let secondCard = "";
